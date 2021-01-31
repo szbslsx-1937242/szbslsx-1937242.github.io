@@ -1,0 +1,11 @@
+#pic1{
+   float: left;
+   border: 5px solid red;
+   border-radius: 25px;
+   background: #73AD21;
+   padding: 20px;  
+}
+
+#video1{
+   float: right;
+}
