@@ -9,3 +9,14 @@
 #video1{
    float: right;
 }
+
+body{
+   background-image: url("dark_wood.png");
+}
+
+h2{
+   font-size: 60px;
+   font-family: "passionate one";
+   color: #8044ce;
+   font-weight: bold;
+}
