@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+	<head> 
+		<title> Our Thing to do page </title>
+		<link rel="stylesheet" type="text/css" href="our.css" />
+		<link href='http://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
+	</head>
+
+	<body>
+		<div id = "Header">
+		   <table>
+		      <tr>
+		         <td><img src="icon.png"></img></td>
+		         <td><h1>My Info 101 XP</h1></td>
+		      </tr>
+		   </table>
+		</div>
+		
+		<div id = "LeftNav">
+			<h3> Things to do Alphabetically</h3>
+			<ul>
+				<li>[begin loop]</li>
+				<li>[event.name]</li>
+				<li>[end loop]</li>
+				<li>Query: Select id, name FROM event ORDER BY name</li>
+			</ul>			
+		</div>
+		
+		<div id = "Content">
+		   <h3>[event name]</h3>
+		   <p>What: [event description]</p>
+  		   <p>When: [event.date]</p>
+		   <p>How Much: [event.price]</p>
+		   <p>Where: [event.location]/[location.street] [location.city]</p>
+			<p>Query: SELECT name, description, date, price, location WHERE event.id=1</p>
+		</div>
+		<br clear="all"></br>
+		<div id = "Footer">
+			<h3>About the site</h3>
+		</div>
+
+	</body>
+
+</html>
